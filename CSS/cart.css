@@ -1,0 +1,215 @@
+.main-1 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(221, 214, 203);
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.main-1 .container-fluid .row ul li {
+    margin-top: 7%;
+    list-style: none;
+}
+
+.main-1 .container-fluid .row ul li a {
+    color: rgb(19, 211, 19);
+    font-weight: 700;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.content h4 {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main-2 .container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 155, 51);
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-3 {
+    font-size: 1.6rem;
+    text-align: center;
+    height: 200px;
+}
+
+.main-3 img {
+    height: 60px;
+    width: 90px;
+}
+
+.main-3 .row {
+    border: 1px solid rgb(212, 211, 211);
+}
+
+.main-3 .row .col-lg-2 {
+    display: flex;
+}
+
+.main-3 .row .col-lg-2 span {
+    font-size: 0.9rem;
+    display: block;
+}
+
+.main-3 .row .col-lg-2 span:hover {
+    color: rgb(75, 75, 75);
+    border: 1px solid black;
+}
+
+.main-3 .row .col-lg-2 p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.main-3 .row .col-lg-2 input {
+    margin-top: 20px;
+}
+
+.main-3 .row .col-lg-2 input::placeholder {
+    float: left;
+}
+
+.fa-pen {
+    margin-right: 10px;
+}
+
+.fa-times {
+    color: rgb(148, 0, 0);
+}
+
+.main-end {
+    margin-bottom: 80px;
+}
+
+.main-end .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear {
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    background-color: rgb(80, 80, 80);
+}
+
+.payment {
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    background-color: rgb(88, 155, 88);
+}
+
+.main-4 .container{
+    text-align: right;
+    height: 50px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 20px;
+}
+
+.main-4 h4 {
+    font-size: 2.5rem;
+    font-weight: 700px;
+    color: rgb(255, 0, 0);
+}
+
+.main-5 .container {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.main-5 label {
+    display: block;
+}
+
+.main-5 .col-lg-4 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.main-5 .col-lg-4 ul li {
+    margin-bottom: 10px;
+}
+
+.main-5 .col-lg-4 h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-5 .col-lg-4 span{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.main-5 .col-lg-4 select {
+    width: 80%;
+}
+
+.main-5 .col-lg-4 input {
+    margin-right: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.main-5 button {
+    font-weight: 700;
+    background-color: rgb(88, 211, 105);
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.main-6 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-6 .container h4 {
+    font-size: 2.5rem;
+}
+
+.active {
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .main-3 {
+        height: 230px;
+    }
+
+    .main-3 .row .none {
+        display: none;
+    }
+
+    .main-2 .container {
+        width: 100%;
+    }
+}
+
+
+
+

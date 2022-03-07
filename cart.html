@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>GIỎ HÀNG</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/cart.css">
+    <link rel="stylesheet" href="./css/general.css">
+</head>
+  <body>
+      <header>
+          <div class="header-1 none">
+            <div class="header-1-list">
+                <ul>
+                    <li>Free Delivery: Take advantage of our time to save event</li>
+                </ul>
+                <ul>
+                    <li>Select Language <span><i class="fas fa-chevron-down"></i></span></li>
+                    <li>Select Currency <span><i class="fas fa-chevron-down"></i></span></li>
+                </ul>
+            </div>
+          </div>
+          <div class="header-2">
+            <div class="container">
+                 <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-9 col-8">
+                        <img src="./assets/logo.png" alt="">
+                    </div>
+                    <div class="none col-lg-7 col-xl-7">
+                        <ul>
+                            <li>Trang chủ</li>
+                            <li class="none">Cửa hàng <span><i class="fas fa-chevron-down"></i></span></li>
+                            <li>Tin tức <span><i class="fas fa-chevron-down"></i></span></li>
+                            <li>Trang khác<span><i class="fas fa-chevron-down"></i></span></li>
+                            <li>Hợp tác</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-xl-2 col-md-3 col-4">
+                      <span class="none"><i class="fas fa-user-alt"></i></span>
+                      <div>
+                          <span class="none"><i class="far fa-heart"></i><span class="quantily">01</span></span>
+                          <span class="none"><i class="fas fa-shopping-bag"></i><span class="quantily">01</span></span>
+                          <label for="nav-bar" class="bar"><i class="fas fa-bars" aria-hidden="true"></i></label>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" hidden id="nav-bar" class="nav-input">
+          <label for="nav-bar" class="overlay"></label for="nav-bar">
+          <label for="nav-bar" class="show">
+            <ul class="menu-show">
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Cửa hàng</a><button><span class="fa fa-plus"></span></button></li>
+                <div class="child">
+                    <span class="span-child">Trái cây</span>
+                    <span class="span-child">Rau củ</span>
+                    <span class="span-child">Thịt tươi</span>
+                </div>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Trang khác</a></li>
+                <li><a href="">Đăng nhập</a></li>
+                <li><a href="">Đăng kí</a></li>
+                <li><a href="">Hợp tác</a></li>
+            </ul>
+          </label>
+          <div class="header-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12">
+                        <button><span><i class="fas fa-chart-bar"></i></span><p>CATEGORIES</p></button>
+                    </div>
+                    <div class="col-lg-7">
+                        <input class="none" type="text" placeholder="Search our store">
+                        <button class="none"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="col-lg-2 none">
+                        <p>Call us: 1234 567 89</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </header>
+      <article>
+        <div class="main-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <dic class="col-lg-12">
+                        <ul>
+                            <li>
+                                <a href="">HOME</a> > <a href="">GIỎ HÀNG</a>
+                            </li>
+                        </ul>
+                    </dic>
+                </div>
+            </div>
+          </div>
+          <div class="main-2">
+            <div class="content">
+                <h4>Tổng các đơn hàng</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <h5>SẢN PHẨM</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-4">
+                        <h5>TÊN SẢN PHẨM</h5>
+                    </div>
+                    <div class="col-lg-2 none">
+                        <h5>GIÁ SP</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <h5>SỐ LƯỢNG</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <h5>TỔNG TIỀN</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <h5>CHỈNH SỬA</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="main-3">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <img src="./assets/product/category-home-1-img-1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-4">
+                        <p>Trứng đóng hộp</p>
+                    </div>
+                    <div class="col-lg-2 none">
+                        <p>$60.00</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        </p><form action="action_page.php">
+                            <input type="number" placeholder="1" name="quantity" min="1" max="100">
+                            </form>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <p>$60.00</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <p><i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <img src="./assets/product/category-home-1-img-2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-4">
+                        <p>Rau thập cẩm</p>
+                    </div>
+                    <div class="col-lg-2 none">
+                        <p>$40.00</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        </p><form action="action_page.php">
+                            <input type="number" placeholder="1" name="quantity" min="1" max="100">
+                            </form>
+                        </p>
+                    </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <p>$40.00</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <p><i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <img src="./assets/product/category-home-1-img-3.jpg" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-4">
+                        <p>Sữa tê giác</p>
+                    </div>
+                    <div class="col-lg-2 none">
+                        <p>$100.00</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        </p><form action="action_page.php">
+                            <input type="number" placeholder="1" name="quantity" min="1" max="100">
+                            </form>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <p>$100.00</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-2">
+                        <p><i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="main-4">
+            <div class="container">
+                <h4><strong class="text-success">Tổng tiền :</strong> ??? VND </h4>
+            </div>
+          </div>
+          <div class="main-5">
+            <form id="infor">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <h4>Thông Tin Khách Hàng</h4>
+                            <fieldset>
+                              <div>
+                                  <label>Họ *</label>
+                                  <input name="ho" type="text" placeholder="Vui lòng nhập họ" required>
+                              </div>
+                              <div>
+                                  <label>Tên *</label>
+                                  <input name="ten" type="text" placeholder="Vui lòng nhập tên" required>
+                              </div>
+                              <div>
+                                  <label>Số điện thoại *</label>
+                                  <input name="sodienthoai" type="text" placeholder="Vui lòng nhập số điện thoại" required>
+                              </div>
+                              <div>
+                                  <label>Email *</label>
+                                  <input name="email" type="text" placeholder="Vui lòng nhập Email" required>
+                              </div>
+                              <div>
+                                  <label>Thông tin thêm</label>
+                                  <input name="thongtinthem" type="text" placeholder="Tùy chọn...">
+                              </div>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h4>Địa Chỉ Nhận Hàng</h4>
+                          <ul>
+                              <li>
+                                  <span>Tỉnh *</span>
+                                  <span>
+                                      <select name="" id="">
+                                          <option>Hà Nội</option>
+                                          <option>Nghệ An</option>
+                                          <option>Đà Nẵng</option>
+                                          <option>TP. Hồ Chí Minh</option>
+                                      </select>
+                                  </span>
+                              </li>
+                              <li>
+                                  <span>Quận, Huyện, Thành Phố *</span>
+                                  <span>
+                                      <select name="" id="">
+                                          <option>Hà Nội</option>
+                                          <option>Vinh</option>
+                                          <option>Quận Liên Chiểu</option>
+                                          <option>Quận 1</option>
+                                      </select>
+                                  </span>
+                              </li>
+                              <li>
+                                  <span>Xã, Phường *</span>
+                                  <span>
+                                      <select name="" id="">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                      </select>
+                                  </span>
+                              </li>
+                              <li>
+                                <label>Địa chỉ</label>
+                                <input name="diachi" type="text" placeholder="Vui lòng nhập địa chỉ" required>
+                              </li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <h4>Chương Trình Ưu Đãi</h4>
+                          <input type="checkbox" name="" value="50%">Giảm 50%
+                          <br>
+                          <input type="checkbox" name="" value="Free Ship">Free Ship
+                          <br>
+                          <input type="checkbox" name="" value="Hoàn xu">Hoàn xu Xtra
+                          <br>
+                          <input type="checkbox" name="" value="-100k">Giảm 100k Đơn Tối Thiểu ₫0
+                          <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-6">
+                    <div class="container">
+                        <h4><strong class="text-success">Tổng tiền thanh toán :</strong> ??? VND </h4>
+                        <button type="submit">Thanh toán</button>   
+                    </div>
+                  </div>
+            </form>
+          </div>
+      </article>
+      <footer>
+          <div class="footer-1">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-6">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-car-side"></i></span>
+                            </li>
+                            <li>
+                                <h4>Free Shipping</h4>
+                            </li>
+                            <li>
+                                <p>Erat metus sodales eget dolor consectetuer,porta ut purus at et alias , nulla ormare velit</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-money-bill-alt"></i></span>
+                            </li>
+                            <li>
+                                <h4>100% Money Back Guarantee</h4>
+                            </li>
+                            <li>
+                                <p>Erat metus sodales eget dolor consectetuer,porta ut purus at et alias , nulla ormare velit</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-atom"></i></span>
+                            </li>
+                            <li>
+                                <h4>Online Support 24/7</h4>
+                            </li>
+                            <li>
+                                <p>Erat metus sodales eget dolor consectetuer,porta ut purus at et alias , nulla ormare velit</p>
+                            </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-3">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-4">
+                        <ul>
+                            <li>
+                                <img src="./assets/logo.png" alt="">
+                            </li>
+                            <li>
+                                <span><i class="fas fa-house-user"></i></span> No: 58 A, your Street, Baltimore, USA 4508
+                            </li>
+                            <li>
+                                <span><i class="fas fa-phone-alt"></i></span> +01 23456789
+                            </li>
+                            <li>
+                                <span><i class="fas fa-envelope"></i></span> support@somemail.com
+                            </li>
+                            <li class="last-icon">
+                                <span class="footer-3-icon">
+                                    <i class="fab fa-facebook"></i>
+                                </span>
+                                <span class="footer-3-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </span> 
+                                <span class="footer-3-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </span>
+                                <span class="footer-3-icon">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </span>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-2 col-md-4">
+                        <ul>
+                            <li>
+                                <h5>INFORMATION</h5>
+                            </li>
+                            <li>
+                                Delivery Information
+                            </li>
+                            <li>
+                                Advanced Search
+                            </li>
+                            <li>
+                                Helps & Faqs
+                            </li>
+                            <li>
+                                Store Location
+                            </li>
+                            <li>
+                                Orders & Returns
+                            </li>
+                            <li>
+                                Deliveries
+                            </li>
+                            <li>
+                                Refund & Returns
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-2 col-md-4">
+                        <ul>
+                            <li>
+                                <h5>OUR COMPANY</h5>
+                            </li>
+                            <li>
+                                Delivery
+                            </li>
+                            <li>
+                                Legal Notice
+                            </li>
+                            <li>
+                                Sitemap
+                            </li>
+                            <li>
+                                Secure payment
+                            </li>
+                            <li>
+                                Blog
+                            </li>
+                            <li>
+                                About us
+                            </li>
+                            <li>
+                                Carrers
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-2 col-md-4">
+                        <ul>
+                            <li>
+                                <h5>MY ACCOUNT</h5>
+                            </li>
+                            <li>
+                                Seacrch Terms
+                            </li>
+                            <li>
+                                Advanced Search
+                            </li>
+                            <li>
+                                Helps & Faqs
+                            </li>
+                            <li>
+                                Store Location
+                            </li>
+                            <li>
+                                Oders & Returns
+                            </li>
+                            <li>
+                                Deliveries
+                            </li>
+                            <li>
+                                Refund & Returns
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-2 col-md-4">
+                          <ul class="last-ul">
+                              <li>
+                                <h5>OPENING TIME</h4>
+                              </li>
+                              <li>
+                                Mon - Fri: 8AM - 10PM
+                              </li>
+                              <li>
+                                Sat: 9AM-8PM
+                              </li>
+                              <li>
+                                Suns: 14hPM-18hPM
+                              </li>
+                              <li>
+                                Mon - Fri: 8AM - 10PM
+                              </li>
+                              <li>
+                                We Work All The Holidays
+                              </li>
+                              <li>
+                                <p>Download our app</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-4">
+              <ul>
+                <li>Copyright © <span>HasThemes</span>. All Rights Reserved</li>
+              </ul>
+              <ul>
+                <img src="./assets/company-logo/payment.png" alt="">
+              </ul>
+          </div>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+    <script>
+    $(document).ready(function() {
+
+		$("#infor").validate({
+					rules: {
+						ho: "required",
+						ten: "required",
+						sodienthoai: {
+							required: true,
+							minlength: 9
+						},
+						confirm_password: {
+							required: true,
+							minlength: 9,
+							equalTo: "#password"
+						},
+						email: {
+							required: true,
+							email: true
+						},
+					},
+					messages: {
+						ho: "Vui lòng nhập họ",
+						ten: "Vui lòng nhập tên",
+						diachi: {
+							required: "Vui lòng nhập địa chỉ",
+							minlength: "Địa chỉ ngắn vậy, chém gió ah?"
+						},
+						sodienthoai: {
+							required: "Vui lòng nhập số điện thoại",
+							minlength: "Số máy quý khách vừa nhập là số không có thực"
+						},
+						password: {
+							required: 'Vui lòng nhập mật khẩu',
+							minlength: 'Vui lòng nhập ít nhất 5 kí tự'
+						},
+						confirm_password: {
+							required: 'Vui lòng nhập mật khẩu',
+							minlength: 'Vui lòng nhập ít nhất 5 kí tự',
+							equalTo: 'Mật khẩu không trùng'
+						},
+						email: {
+							required: "Please provide a password",
+							minlength: "Your password must be at least 5 characters long",
+							equalTo: "Please enter the same password as above"
+						},
+						email: "Vui lòng nhập Email",
+					}
+				});
+	});
+
+    $(document).on( 'click' , '.menu-show li button' , function() {
+            $('.child').hide(1000);
+            if($(this).find('.fa').hasClass('fa-plus')){
+                $('.fa').find('.fa').removeClass('fa-minus').addClass('fa-plus');
+                $(this).find('.fa').removeClass('fa-plus').addClass('fa-minus')
+                $(this).closest('li').next().show(1000);
+            }
+            else {
+                $(this).find('.fa').removeClass('fa-minus').addClass('fa-plus');
+            }
+        });
+
+    $(document).on('click' , '.fa-times' , function(){
+        var div = this.parentElement;
+        div.style.display = "none";
+    })
+	</script>
+  </body>
+</html>

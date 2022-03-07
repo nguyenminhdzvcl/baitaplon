@@ -1,0 +1,300 @@
+.main-1 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(221, 214, 203);
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.main-1 .container-fluid .row ul li {
+    margin-top: 7%;
+    list-style: none;
+}
+
+.main-1 .container-fluid .row ul li a {
+    color: rgb(19, 211, 19);
+    font-weight: 700;
+}
+
+.main-2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-2 .container .row .col-lg-3 ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.main-2 .col-lg-3 ul li {
+    margin-bottom: 10px;
+}
+
+.main-2 .col-lg-3 ul li h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+.main-2 .col-lg-3 ul li a {
+    color: rgb(75, 75, 75);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.main-2 .col-lg-3 ul li a:hover {
+    color: rgb(10, 99, 10);
+}
+
+.list-1 {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.list-1 span ul {
+    padding-left: 0;
+}
+
+.list-1 span img {
+    height: 60px;
+    width: 80px;
+}
+
+.list-1 span ul li h5 {
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.list-1 span ul li h5:hover{
+    color: rgb(10, 99, 10);
+}
+
+.main-2 .col-lg-3 .list-tag {
+    justify-content: space-around;
+}
+
+.list-tag h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+.main-2 .col-lg-3 .list-tag span{
+    padding: 1px 10px;
+    font-size: 1.4rem;
+    border: 1px solid rgb(206, 202, 202);
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.news {
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+}
+
+.news img {
+    width: 100%;
+}
+
+.news ul {
+    list-style: none;
+}
+
+.news ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.news ul li h4 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.news ul li span {
+    display: flex;
+    margin-right: 30px;
+}
+
+.news ul li span i {
+    margin-right: 10px;
+    font-size: 1.8rem;
+
+}
+
+.news ul li span h5{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(107, 106, 106);
+}
+
+.ul-special {
+    margin-left: 40px;
+    padding-left: 60px;
+    border-left: 5px solid yellow;
+    background-color: rgb(245, 234, 234);
+}
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: rgb(110, 110, 110);
+    border: 1px solid rgb(238, 227, 227);
+    margin-bottom: 100px;
+}
+
+.share ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.share strong {
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.share span {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.comment {
+    font-size: 1.6rem;
+    margin-bottom: 60px;
+}
+
+.comment h4 {
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.comment ul {
+    padding-top: 20px;
+    padding-right: 20px;
+    list-style: none;
+    border: 1px solid rgb(230, 222, 222);
+}
+
+.comment ul li {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(199, 190, 190);
+}
+
+.comment ul li span {
+    margin-right: 20px;
+}
+
+.comment ul li span p {
+    padding-bottom: 20px;
+}
+
+.comment img {
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(214, 202, 202);
+}
+
+.li-special {
+    padding-left: 80px;
+}
+
+.comment ul li span h5 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.comment ul li span div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.comment ul li span div span {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(150, 146, 146);
+}
+
+.rep-comment {
+    font-size: 2rem;
+}
+
+
+.rep-comment h4 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+}
+
+.gt input {
+    width: 400px;
+    height: 40px;
+    font-size: 1.4rem;
+}
+
+.rep input {
+    width: 100%;
+    height: 100px;
+    text-align: start;
+    font-size: 1.6rem;
+}
+
+.rep button {
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(41, 36, 36);
+}
+
+.error {
+    color: red;
+}
+
+
+@media (max-width:1024px) {
+    .gt input {
+        width: 350px;
+    }
+
+    .main-2 .container .row .col-lg-3 {
+        order: 2;
+    }
+
+    .main-2 .container .row .col-lg-9 {
+        order: 1;
+    }
+}
+
+@media (max-width: 844px) {
+    .gt {
+        display: block;
+    }
+
+    .main-2 .container .row .col-lg-3 {
+        order: 2;
+    }
+
+    .main-2 .container .row .col-lg-9 {
+        order: 1;
+    }
+
+    .rep {
+        margin-bottom: 50px;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+}
